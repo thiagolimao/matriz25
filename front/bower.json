@@ -1,0 +1,21 @@
+{
+  "name": "matriz25",
+  "version": "0.1.0",
+  "authors": [
+    "Thiago Limao <thiago@thiagolima.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.1.1",
+    "jquery-validation": "1.15.0",
+    "bootstrap": "3.3.6"
+  }
+}
