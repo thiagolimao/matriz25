@@ -6,6 +6,7 @@ $(window).load(function() {
     =============================================== */
     var preloaderDelay = 500;
     var preloaderFadeOutTime = 800;
+    var startPage = 0;
 
     function hidePreloader() {
         var loadingAnimation = $('#loading-animation');
@@ -27,9 +28,12 @@ $(document).ready(function(){
     //     interval: 12000
     // });
 
-    $('#mobCarousel').on('slide.bs.carousel', function () {
-        console.log($('#mobCarousel .item').index($('#mobCarousel .active')) + 1);
+    $('#mobCarousel').on('slid.bs.carousel', function () {
+        var item = ($('#mobCarousel .item').index($('#mobCarousel .active')) + 1);
+        $( ".item_slide" ).html(item);
     })
+
+
 
     $(".fancybox").fancybox({
         openEffect  : 'none',
