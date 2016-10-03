@@ -3,6 +3,7 @@ Page: HOME
 ================================================================== */
 .main
 {
+    overflow-x: hidden;
     section
     {
         background-color: @white;
@@ -18,6 +19,11 @@ Page: HOME
             {
                 margin: 0;
                 padding: 0 62px;
+
+                @media (max-width: 768px)
+                {
+                    padding: 0;
+                }
 
                 p
                 {
@@ -47,9 +53,24 @@ Page: HOME
         {
             background-color: #f6f6f6;
 
+            // background-color: #000;
+            // background-image: url(../img/tmp_galeria.jpg);
+            // background-repeat: no-repeat;
+            // background-position: center top;
+
             .container
             {
                 max-width: 1030px;
+
+                @media (max-width: 1040px)
+                {
+                    max-width: 100%;
+                    width: 910px;
+                }
+                @media (max-width: 1039px)
+                {
+                    width: 750px;
+                }
 
                 .carousel
                 {
@@ -59,10 +80,20 @@ Page: HOME
                     {
                         left: -80px;
 
+                        @media (max-width: 1115px)
+                        {
+                            left: -5%;
+                        }
+
                         &.right
                         {
                             left: auto;
                             right: -80px;
+
+                            @media (max-width: 1115px)
+                            {
+                                right: -5%;
+                            }
                         }
                     }
 
@@ -94,6 +125,35 @@ Page: HOME
             .container
             {
                 max-width: 1060px;
+
+                @media (max-width: 1200px)
+                {
+                    width: 1020px;
+                    max-width: 100%;
+                }
+                @media (max-width: 1019px)
+                {
+                    width: 960px;
+                }
+                @media (max-width: 992px)
+                {
+                    width: 750px;
+                }
+                @media (max-width: 768px)
+                {
+                    width: auto;
+
+                    .row .row
+                    {
+                        margin-left: 0;
+                        margin-right: 0;
+                    }
+
+                    .btn
+                    {
+                        width: 100%;
+                    }
+                }
             }
 
             h2
@@ -115,6 +175,11 @@ Page: HOME
 
                     padding: 20px 15px;
 
+                    @media (max-width: 1020px)
+                    {
+                        font-size: 1.1em;
+                    }
+
                     &:nth-child(3n+1)
                     {
                         border: none;
@@ -124,6 +189,31 @@ Page: HOME
                     {
                         float: left;
                         margin-right: 15px;
+                    }
+                }
+                @media (max-width: 992px)
+                {
+                    [class^="col-"]
+                    {
+                        border: none;
+
+                        &:nth-child(even)
+                        {
+                            border-left: solid 1px #e0ddd9;
+                        }
+                    }
+                }
+                @media (max-width: 768px)
+                {
+                    [class^="col-"]
+                    {
+                        // border-width: 0 0 1px 0;
+                        border-bottom: solid 1px #e0ddd9 !important;
+
+                        &:nth-child(even)
+                        {
+                            border-left: none;
+                        }
                     }
                 }
             }
@@ -226,6 +316,29 @@ Page: HOME
                             letter-spacing: 0;
                             line-height: 1.6em;
                             margin-bottom: 22px;
+                        }
+                    }
+
+
+                    @media (max-width: 992px)
+                    {
+                        &:first-child
+                        {
+                            padding-right: 15px;
+                        }
+                        &:last-child
+                        {
+                            text-align: center;
+                        }
+                    }
+
+
+
+                    @media (max-width: 480px)
+                    {
+                        img
+                        {
+                            width: 80%;
                         }
                     }
                 }

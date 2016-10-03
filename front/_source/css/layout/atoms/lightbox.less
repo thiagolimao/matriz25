@@ -23,9 +23,64 @@ LIGHTBOX
 
 .fancybox-overlay
 {
-    background: url('../img/fancybox/fancybox_overlay.png');
+    // background: url('../img/fancybox/fancybox_overlay.png');
+    background: none;
 }
 
+.fancybox-skin
+{
+    padding: 0 !important;
+}
+
+.fancybox-close
+{
+    right: -25px;
+    top: -25px;
+
+    width: 50px;
+    height: 50px;
+
+    background-image: url(../img/lightbox_close.png) !important;
+    background-repeat: no-repeat;
+    background-position: left top;
+
+    &:hover
+    {
+        background-position: right top;
+    }
+}
+.fancybox-nav
+{
+    span
+    {
+        margin-top: -25px;
+
+        width: 50px;
+        height: 50px;
+
+        background-color: #ffffff;
+
+
+        background-image: url(../img/lightbox_arrow.png) !important;
+        background-repeat: no-repeat;
+        background-position: left top;
+    }
+    &.fancybox-next
+    {
+        span
+        {
+            background-position: right top;
+        }
+    }
+    &.fancybox-prev
+    {
+        span
+        {
+            background-position: left top;
+        }
+    }
+
+}
 /*Retina graphics!*/
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
        only screen and (min--moz-device-pixel-ratio: 1.5),

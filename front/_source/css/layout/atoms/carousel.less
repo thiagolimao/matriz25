@@ -1,0 +1,66 @@
+/* ==================================================================
+CAROUSEL
+================================================================== */
+.carousel-control
+{
+    background-color: transparent;
+    bottom: auto;
+
+    left: 0;
+    opacity: 1;
+    text-shadow: none;
+
+    top: 50%;
+
+    width: 25px;
+    height: 57px;
+
+    margin-top: -28px;
+
+    background-image: url(../img/arrow_right.png) !important;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &.left
+    {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+    }
+
+}
+
+.main section.galeria .container .carousel .nav-bar
+{
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    margin-top: 10px;
+
+    .fw-thin;
+    font-size: 36px;
+    color: #c9c9c9;
+
+    span
+    {
+        .fw-normal;
+        font-size: 30px;
+        color: #4b4b4b;
+    }
+}
+
+.main section.galeria .container .carousel .nav-bar .carousel-control
+{
+    background-size: 60% auto;
+    background-repeat: no-repeat;
+}
+.main section.galeria .container .carousel .nav-bar .carousel-control.left
+{
+    left: 0;
+}
+.main section.galeria .container .carousel .nav-bar .carousel-control.right
+{
+    right: 0;
+}

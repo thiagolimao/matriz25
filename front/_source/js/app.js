@@ -23,7 +23,13 @@ $(window).load(function() {
 
 $(document).ready(function(){
 
-    $('.carousel').carousel();
+    // $('#myCarousel').carousel({
+    //     interval: 12000
+    // });
+
+    $('#mobCarousel').on('slide.bs.carousel', function () {
+        console.log($('#mobCarousel .item').index($('#mobCarousel .active')) + 1);
+    })
 
     $(".fancybox").fancybox({
         openEffect  : 'none',
