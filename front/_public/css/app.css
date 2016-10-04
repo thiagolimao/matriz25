@@ -7483,7 +7483,7 @@ LIGHTBOX
 }
 
 .fancybox-overlay {
-	background: none;
+	background: rgba(109, 109, 109, 0.8);
 }
 
 .fancybox-skin {
@@ -7498,6 +7498,7 @@ LIGHTBOX
 	background-image: url(../img/lightbox_close.png) !important;
 	background-repeat: no-repeat;
 	background-position: left top;
+	background-size: auto !important;
 }
 
 .fancybox-close:hover {
@@ -7512,6 +7513,7 @@ LIGHTBOX
 	background-image: url(../img/lightbox_arrow.png) !important;
 	background-repeat: no-repeat;
 	background-position: left top;
+	background-size: auto !important;
 }
 
 .fancybox-nav.fancybox-next span {
@@ -7520,6 +7522,33 @@ LIGHTBOX
 
 .fancybox-nav.fancybox-prev span {
 	background-position: left top;
+}
+
+.fancybox-title-float-wrap {
+	bottom: 0;
+	margin-bottom: 0;
+	right: auto;
+	left: 0;
+	text-align: left;
+	width: 100%;
+}
+
+.fancybox-title-float-wrap .child {
+	background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+	border-radius: 0;
+	color: #292929;
+	font-weight: 700;
+	line-height: 60px;
+	margin-right: 0;
+	padding: 0 40px;
+	text-shadow: none;
+	width: 100%;
+}
+
+.fancybox-title-float-wrap .child:before {
+	content: "matriz 25";
+	margin-right: 4px;
+	color: #896744;
 }
 
 /*Retina graphics!*/
@@ -7668,6 +7697,17 @@ FOOTER
 .footer {
 	background-color: #ffffff;
 	text-align: center;
+	position: relative;
+}
+
+.footer:before {
+	content: "";
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	background-color: #ffffff;
 }
 
 .footer ul {
@@ -7680,6 +7720,7 @@ FOOTER
 	display: inline-block;
 	width: 15%;
 	line-height: 142px;
+	height: 122px;
 }
 
 /* ==================================================================
@@ -7728,6 +7769,21 @@ Page: HOME
 
 .main section.galeria .container {
 	max-width: 1030px;
+}
+
+.main section.galeria .container #myCarousel .fancybox {
+	-webkit-transform: scale(1); /* prefixo para browsers webkit */
+	-moz-transform: scale(1); /* prefixo para browsers gecko */
+	-o-transform: scale(1); /* prefixo para opera */
+	transform: scale(1);
+}
+
+.main section.galeria .container #myCarousel .fancybox:hover {
+	-webkit-transform: scale(1.2); /* prefixo para browsers webkit */
+	-moz-transform: scale(1.2); /* prefixo para browsers gecko */
+	-o-transform: scale(1.2); /* prefixo para opera */
+	transform: scale(1.2);
+	z-index: 10;
 }
 
 .main section.galeria .container .carousel {

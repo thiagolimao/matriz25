@@ -24,7 +24,7 @@ LIGHTBOX
 .fancybox-overlay
 {
     // background: url('../img/fancybox/fancybox_overlay.png');
-    background: none;
+    background: rgba(109, 109, 109, 0.8);
 }
 
 .fancybox-skin
@@ -43,6 +43,7 @@ LIGHTBOX
     background-image: url(../img/lightbox_close.png) !important;
     background-repeat: no-repeat;
     background-position: left top;
+    background-size: auto !important;
 
     &:hover
     {
@@ -64,6 +65,7 @@ LIGHTBOX
         background-image: url(../img/lightbox_arrow.png) !important;
         background-repeat: no-repeat;
         background-position: left top;
+        background-size: auto !important;
     }
     &.fancybox-next
     {
@@ -81,6 +83,37 @@ LIGHTBOX
     }
 
 }
+
+.fancybox-title-float-wrap {
+    bottom: 0;
+    margin-bottom: 0;
+    right: auto;
+    left: 0;
+    text-align: left;
+    width: 100%;
+
+    .child
+    {
+        background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
+        border-radius: 0;
+        color: #292929;
+        font-weight: 700;
+        line-height: 60px;
+        margin-right: 0;
+        padding: 0 40px;
+        text-shadow: none;
+        width: 100%;
+
+        &:before
+        {
+            content: "matriz 25";
+            margin-right: 4px;
+            color: @brand-primary;
+        }
+    }
+}
+
+
 /*Retina graphics!*/
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
        only screen and (min--moz-device-pixel-ratio: 1.5),

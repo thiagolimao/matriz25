@@ -72,6 +72,26 @@ Page: HOME
                     width: 750px;
                 }
 
+                #myCarousel
+                {
+                    .fancybox
+                    {
+                        -webkit-transform:scale(1.0); /* prefixo para browsers webkit */
+                        -moz-transform:scale(1.0); /* prefixo para browsers gecko */
+                        -o-transform:scale(1.0); /* prefixo para opera */
+                        transform:scale(1.0);
+
+                        &:hover {
+                            -webkit-transform:scale(1.2); /* prefixo para browsers webkit */
+                            -moz-transform:scale(1.2); /* prefixo para browsers gecko */
+                            -o-transform:scale(1.2); /* prefixo para opera */
+                            transform:scale(1.2);
+
+                            z-index: 10;
+                        }
+                    }
+                }
+
                 .carousel
                 {
                     margin-bottom: 38px;
