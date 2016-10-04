@@ -46,37 +46,85 @@ FORM
     .placeholder(#292929);
 }
 
-
-/*
-input, select, textarea, button {
-    background-color: @white;
-    border: none;
-    margin-bottom: 15px;
-    height: 22px;
-    width: 100%;
-    padding: 0 5px;
-}
-input[type="submit"] {
-    .btn_submit;
-    text-indent: -9999px;
-}
-label
+textarea.form-control
 {
-    font-size: 1.2em;
-    margin-bottom: 5px;
-    small
+    height: 40px;
+    line-height: 27px;
+
+    &:focus
     {
-        font-size: 0.9em;
+        height: 120px;
     }
 }
 
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+.is-completed
+{
+    textarea.form-control
+    {
+        height: 120px;
+    }
 }
 
-label.error { font-style: italic; font-size: 1.1em; margin-bottom: 10px; }
-input:focus { background-color: @dark-green; color: @white; }
-input.error { background-color: @brand-danger; color: @white; margin-bottom: 5px; }
-*/
+label.error {
+    bottom: 10px;
+    color: @brand-primary;
+    left: 20px;
+    position: absolute;
+}
+
+.alert
+{
+    background-color: #FCF8E3;
+    border: 1px solid #FBEED5;
+    border-radius: 4px 4px 4px 4px;
+    padding: 0 0 0 50px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+
+    height: 50px;
+    line-height: 50px;
+
+
+    &.info
+    {
+        display: none;
+        background-color: #D9EDF7;
+        border-color: #BCE8F1;
+        color: #3A87AD;
+    }
+    &.success
+    {
+        background-color: #DFF0D8;
+        border-color: #D6E9C6;
+        color: #468847;
+    }
+    &.error
+    {
+        background-color: #F2DEDE;
+        border-color: #EED3D7;
+        color: #B94A48;
+    }
+
+    .close
+    {
+        cursor: pointer;
+        background: none;
+        border: medium none;
+        color: #000000;
+        float: right;
+        font-size: 20px;
+        font-weight: bold;
+        height: 50px;
+        width: 50px;
+        line-height: 56px;
+        padding: 0 20px;
+        opacity: 0.2;
+        position: relative;
+        right: 0;
+        text-shadow: 0 1px 0 #FFFFFF;
+        top: -2px;
+    }
+}

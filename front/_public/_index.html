@@ -110,7 +110,7 @@
             <img src="img/logo_matriz25.png" alt="">
         </a>
 
-        <a class="btn btn-cadastro" title="cadastre-se para mais informações" href="#">
+        <a class="btn btn-cadastro" title="cadastre-se para mais informações" href="#mais-informacoes">
             cadastre-se para mais informações
         </a>
 
@@ -338,7 +338,7 @@
                         </div>
                     </div>
 
-                    <a class="btn btn-informacoes" title="quero mais informações" href="#">
+                    <a class="btn btn-informacoes" title="quero mais informações" href="#mais-informacoes">
                         quero mais informações
                     </a>
 
@@ -410,7 +410,7 @@
 
                     </div><!-- /.row -->
 
-                    <a class="btn btn-informacoes" title="quero mais informações" href="#">
+                    <a class="btn btn-informacoes" title="quero mais informações" href="#mais-informacoes">
                         quero mais informações
                     </a>
                 </div><!-- /.col-md-5 -->
@@ -436,7 +436,7 @@
                         <img src="img/img_video.jpg" class="img-responsive" alt="">
                     </a>
 
-                    <a class="btn btn-informacoes" title="quero mais informações" href="#">
+                    <a class="btn btn-informacoes" title="quero mais informações" href="#mais-informacoes">
                         quero mais informações
                     </a>
                 </div><!-- /.col-md-5 -->
@@ -461,7 +461,7 @@
     <!-- ==============================================
     INFORMACOES
     =============================================== -->
-    <section class="informacoes">
+    <section class="informacoes" id="mais-informacoes">
 
         <div class="container">
             <div class="row">
@@ -470,25 +470,47 @@
                     <h2>SITE OFICIAL DA CONSTRUTORA</h2>
                     <h3>Solicite mais informações abaixo.</h3>
 
-                    <form class="form-horizontal row">
+                    <?php
+                        $msg = $_GET['msg'];
+                        if ($msg == 1) {
+                    ?>
+
+                    <div class="alert success">
+                        <button class="close" data-dismiss="alert" type="button" id="close-sucess">×</button>
+                        <strong>Enviado com sucesso!</strong> Retornarei em breve.
+                    </div>
+                    
+                    <?php
+                        }else if ($msg == 2){
+                    ?>
+
+                    <div class="alert error">
+                        <button class="close" data-dismiss="alert" type="button" id="close-error">×</button>
+                        <strong>Ocorreu um erro!</strong> Tente novamente.
+                    </div>
+                    <?php
+                        }
+                    ?>
+
+                    <form class="form-horizontal row" id="formInformacoes" method="post" action="envia_contato.php">
 
                         <div class="col-md-6">
-                            <input type="text" class="form-control" id="inputNome" placeholder="Nome">
+                            <input name="nome" type="text" class="form-control" id="inputNome" placeholder="Nome" minlength="2" required>
                         </div>
 
                         <div class="col-md-6">
-                            <input type="email" class="form-control" id="inputEmail" placeholder="E-mail">
+                            <input name="email" type="email" class="form-control" id="inputEmail" placeholder="E-mail" required>
                         </div>
 
                         <div class="col-md-6">
-                            <input type="tel" class="form-control" id="inputTelefone" placeholder="Telefone">
+                            <input name="telefone" type="tel" class="form-control" id="inputTelefone" placeholder="Telefone">
                         </div>
 
                         <div class="col-md-6">
-                            <input type="text" class="form-control" id="inputMensagem" placeholder="Mensagem">
+                            <textarea name="mensagem" class="form-control" class="form-control" id="inputMensagem" placeholder="Mensagem" minlength="10" required></textarea>
                         </div>
 
-                        <button type="submit" class="btn btn-default">enviar</button>
+                        <button type="submit" name='submit' class="btn btn-default">enviar</button>
 
                     </form>
 
@@ -525,7 +547,26 @@
                 </div><!-- /.col-md-6 -->
 
                 <div class="col-md-6">
-                    <img src="img/img_matriz25_footer.png" alt="">
+                    <!-- <img src="img/img_matriz25_footer.png" alt=""> -->
+
+                    <div id="footerCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner" role="listbox">
+
+                            <div class="item active">
+                                <img class="img-responsive" src="img/img_matriz25_footer01.png" alt="">
+                            </div><!-- /.item -->
+                            <div class="item">
+                                <img class="img-responsive" src="img/img_matriz25_footer02.png" alt="">
+                            </div><!-- /.item -->
+
+                            <div class="item">
+                                <img class="img-responsive" src="img/img_matriz25_footer03.png" alt="">
+                            </div><!-- /.item -->
+
+                        </div><!-- /carousel-inner -->
+                    </div>
                 </div><!-- /.col-md-6 -->
 
             </div><!-- /.row -->

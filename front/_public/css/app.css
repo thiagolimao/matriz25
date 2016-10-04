@@ -7463,6 +7463,40 @@ CAROUSEL
 	right: 0;
 }
 
+/*
+inspired from http://codepen.io/Rowno/pen/Afykb 
+*/
+
+.carousel-fade .carousel-inner .item {
+	opacity: 0;
+	transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+	opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+	left: 0;
+	opacity: 0;
+	z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+	opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+	z-index: 2;
+}
+
+/*
+WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+now override the 3.3 new styles for modern browsers & apply opacity
+*/
+
 /* ==================================================================
 LIGHTBOX
 ================================================================== */
@@ -7631,39 +7665,76 @@ FORM
 	color: #292929;
 }
 
-/*
-input, select, textarea, button {
-    background-color: @white;
-    border: none;
-    margin-bottom: 15px;
-    height: 22px;
-    width: 100%;
-    padding: 0 5px;
-}
-input[type="submit"] {
-    .btn_submit;
-    text-indent: -9999px;
-}
-label
-{
-    font-size: 1.2em;
-    margin-bottom: 5px;
-    small
-    {
-        font-size: 0.9em;
-    }
+textarea.form-control {
+	height: 40px;
+	line-height: 27px;
 }
 
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+textarea.form-control:focus {
+	height: 120px;
 }
 
-label.error { font-style: italic; font-size: 1.1em; margin-bottom: 10px; }
-input:focus { background-color: @dark-green; color: @white; }
-input.error { background-color: @brand-danger; color: @white; margin-bottom: 5px; }
-*/
+.is-completed textarea.form-control {
+	height: 120px;
+}
+
+label.error {
+	bottom: 10px;
+	color: #896744;
+	left: 20px;
+	position: absolute;
+}
+
+.alert {
+	background-color: #FCF8E3;
+	border: 1px solid #FBEED5;
+	border-radius: 4px 4px 4px 4px;
+	padding: 0 0 0 50px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	height: 50px;
+	line-height: 50px;
+}
+
+.alert.info {
+	display: none;
+	background-color: #D9EDF7;
+	border-color: #BCE8F1;
+	color: #3A87AD;
+}
+
+.alert.success {
+	background-color: #DFF0D8;
+	border-color: #D6E9C6;
+	color: #468847;
+}
+
+.alert.error {
+	background-color: #F2DEDE;
+	border-color: #EED3D7;
+	color: #B94A48;
+}
+
+.alert .close {
+	cursor: pointer;
+	background: none;
+	border: medium none;
+	color: #000000;
+	float: right;
+	font-size: 20px;
+	font-weight: bold;
+	height: 50px;
+	width: 50px;
+	line-height: 56px;
+	padding: 0 20px;
+	opacity: 0.2;
+	position: relative;
+	right: 0;
+	text-shadow: 0 1px 0 #FFFFFF;
+	top: -2px;
+}
 
 /* ==================================================================
 HEADER
@@ -8061,6 +8132,28 @@ input[type="month"].input-lg,
 	-ms-transform: translate3d(0, 0, 0);
 	-o-transform: translate3d(0, 0, 0);
 	left: 0;
+}
+
+.carousel-fade .carousel-inner > .item.next,
+.carousel-fade .carousel-inner > .item.active.right {
+	opacity: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.carousel-fade .carousel-inner > .item.prev,
+.carousel-fade .carousel-inner > .item.active.left {
+	opacity: 0;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.carousel-fade .carousel-inner > .item.next.left,
+.carousel-fade .carousel-inner > .item.prev.right,
+.carousel-fade .carousel-inner > .item.active {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
 }
 
 }

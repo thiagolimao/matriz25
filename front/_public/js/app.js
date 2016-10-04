@@ -55,4 +55,54 @@ $(document).ready(function(){
         }
     });
 
+
+    // $('#inputMensagem').blur(function() {
+    //     if ($(this)[0].value === '') {
+    //         $(this).css('background', '#000');
+    //     }
+    // });
+
+
+    $("#inputMensagem").focus(function(){
+        $(this).parent().addClass("is-active is-completed");
+    });
+
+    $("#inputMensagem").focusout(function(){
+        if($(this).val() === "")
+        $(this).parent().removeClass("is-completed");
+        $(this).parent().removeClass("is-active");
+    });
+
+
+
+
+    // validate signup form on keyup and submit
+    $("#formInformacoes").validate({
+        rules: {
+            nome: {
+                required: true,
+                minlength: 2
+            },
+            email: {
+                required: true,
+                email: true
+            },
+            mensagem: {
+                required: true,
+                minlength: 10
+            }
+        },
+        messages: {
+            nome: {
+                required: "Digite seu nome",
+                minlength: "Seu nome precisa ser maior que 2 letras"
+            },
+            email: "Digite um e-mail válido",
+            mensagem: {
+                required: "Digite uma mensagem",
+                minlength: "Sua mensagem precisa ser maior que 10 letras"
+            }
+        }
+    });
+
 });
