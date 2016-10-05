@@ -117,7 +117,7 @@
         <!-- <img src="img/bg_header.jpg" class="img-responsive" alt=""> -->
         <div class="video-background">
             <div class="video-foreground">
-                <iframe src="https://www.youtube.com/embed/W0LHTWG-UmQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe>
+                <iframe id="video-destaque" src="https://www.youtube.com/embed/hvFHWeld98k?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=hvFHWeld98k" frameborder="0" volume="0" allowfullscreen></iframe>
             </div>
         </div>
 
@@ -173,31 +173,31 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="row">
-                                            <a class="fancybox col-md-12" title=". Lorem ipsum nessum dollor" rel="gallery" href="img/001.jpg">
-                                                <img class="img-responsive" src="img/001.jpg" alt="">
+                                            <a class="fancybox col-md-12" title=". Suítes amplas com até 25m2 e espaço para closet ou escritório." rel="gallery" href="img/01.jpg">
+                                                <img class="img-responsive" src="img/01.jpg" alt="">
                                             </a>
                                         </div><!-- /.row -->
                                         <div class="row">
-                                            <a class="fancybox col-md-6" title=". Lorem ipsum nessum dollor" rel="gallery" href="img/002.jpg">
-                                                <img class="img-responsive" src="img/002.jpg" alt="">
+                                            <a class="fancybox col-md-6" title=". Apartamento garden com lazer e conforto em ambiente exclusivo." rel="gallery" href="img/02.jpg">
+                                                <img class="img-responsive" src="img/02.jpg" alt="">
                                             </a>
-                                            <a class="fancybox col-md-6" title=". Lorem ipsum nessum dollor" rel="gallery" href="img/003.jpg">
-                                                <img class="img-responsive" src="img/003.jpg" alt="">
+                                            <a class="fancybox col-md-6" title=". Ambiente de cozinha moderno, amplo, funcional e prático." rel="gallery" href="img/03.jpg">
+                                                <img class="img-responsive" src="img/03.jpg" alt="">
                                             </a>
                                         </div><!-- /.row -->
                                     </div><!-- /col -->
                                     <div class="col-md-6">
                                         <div class="row">
-                                            <a class="fancybox col-md-6" title=". Lorem ipsum nessum dollor" rel="gallery" href="img/004.jpg">
-                                                <img class="img-responsive" src="img/004.jpg" alt="">
+                                            <a class="fancybox col-md-6" title=". Salão de festas com cozinha gourmet, lounge e varanda." rel="gallery" href="img/04.jpg">
+                                                <img class="img-responsive" src="img/04.jpg" alt="">
                                             </a>
-                                            <a class="fancybox col-md-6" title=". Lorem ipsum nessum dollor" rel="gallery" href="img/005.jpg">
-                                                <img class="img-responsive" src="img/005.jpg" alt="">
+                                            <a class="fancybox col-md-6" title=". Um novo conceito em design e sofisticação em cada detalhe." rel="gallery" href="img/05.jpg">
+                                                <img class="img-responsive" src="img/05.jpg" alt="">
                                             </a>
                                         </div><!-- /.row -->
                                         <div class="row">
-                                            <a class="fancybox col-md-12" title=". Lorem ipsum nessum dollor" rel="gallery" href="img/006.jpg">
-                                                <img class="img-responsive" src="img/006.jpg" alt="">
+                                            <a class="fancybox col-md-12" title=". Salas de estar amplas e arejadas permitem diferentes composições." rel="gallery" href="img/06.jpg">
+                                                <img class="img-responsive" src="img/06.jpg" alt="">
                                             </a>
                                         </div><!-- /.row -->
                                     </div><!-- /col -->
@@ -209,31 +209,31 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="row">
-                                            <a class="fancybox col-md-12" title=". Lorem ipsum nessum dollor" rel="gallery" href="img/007.jpg">
-                                                <img class="img-responsive" src="img/007.jpg" alt="">
+                                            <a class="fancybox col-md-12" title=". Piscina com hidromassagem integrada." rel="gallery" href="img/07.jpg">
+                                                <img class="img-responsive" src="img/07.jpg" alt="">
                                             </a>
                                         </div><!-- /.row -->
                                         <div class="row">
-                                            <a class="fancybox col-md-6" title=". Lorem ipsum nessum dollor" rel="gallery" href="img/008.jpg">
-                                                <img class="img-responsive" src="img/008.jpg" alt="">
+                                            <a class="fancybox col-md-6" title=". Espaço fitness reservado para o seu corpo e bem-estar." rel="gallery" href="img/08.jpg">
+                                                <img class="img-responsive" src="img/08.jpg" alt="">
                                             </a>
-                                            <a class="fancybox col-md-6" title=". Lorem ipsum nessum dollor" rel="gallery" href="img/009.jpg">
-                                                <img class="img-responsive" src="img/009.jpg" alt="">
+                                            <a class="fancybox col-md-6" title=". Do churrasco à pizza, ofereça o melhor entretenimento aos seus convidados." rel="gallery" href="img/09.jpg">
+                                                <img class="img-responsive" src="img/09.jpg" alt="">
                                             </a>
                                         </div><!-- /.row -->
                                     </div><!-- /col -->
                                     <div class="col-md-6">
                                         <div class="row">
-                                            <a class="fancybox col-md-6" title=". Lorem ipsum nessum dollor" rel="gallery" href="img/010.jpg">
-                                                <img class="img-responsive" src="img/010.jpg" alt="">
+                                            <a class="fancybox col-md-6" title=". Integrado à brinquedoteca, playground para brincar ao ar livre." rel="gallery" href="img/10.jpg">
+                                                <img class="img-responsive" src="img/10.jpg" alt="">
                                             </a>
-                                            <a class="fancybox col-md-6" title=". Lorem ipsum nessum dollor" rel="gallery" href="img/011.jpg">
-                                                <img class="img-responsive" src="img/011.jpg" alt="">
+                                            <a class="fancybox col-md-6" title=". Brinquedoteca reservada para crianças se divertirem." rel="gallery" href="img/11.jpg">
+                                                <img class="img-responsive" src="img/11.jpg" alt="">
                                             </a>
                                         </div><!-- /.row -->
                                         <div class="row">
-                                            <a class="fancybox col-md-12" title=". Lorem ipsum nessum dollor" rel="gallery" href="img/003.jpg">
-                                                <img class="img-responsive" src="img/003.jpg" alt="">
+                                            <a class="fancybox col-md-12" title=". Fachada de ângulos retos e linhas simples inspiradas no design urbano." rel="gallery" href="img/12.jpg">
+                                                <img class="img-responsive" src="img/12.jpg" alt="">
                                             </a>
                                         </div><!-- /.row -->
                                     </div><!-- /col -->
@@ -256,74 +256,74 @@
                         <div class="carousel-inner" role="listbox">
 
                             <div class="item active">
-                                <a class="fancybox" rel="gallery" href="img/001.jpg">
-                                    <img class="img-responsive" src="img/001.jpg" alt="">
+                                <a class="fancybox" rel="gallery" href="img/01.jpg">
+                                    <img class="img-responsive" src="img/01.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
                             <div class="item">
-                                <a class="fancybox" rel="gallery" href="img/002.jpg">
-                                    <img class="img-responsive" src="img/002.jpg" alt="">
-                                </a>
-                            </div><!-- /.item -->
-
-                            <div class="item">
-                                <a class="fancybox" rel="gallery" href="img/003.jpg">
-                                    <img class="img-responsive" src="img/003.jpg" alt="">
+                                <a class="fancybox" rel="gallery" href="img/02.jpg">
+                                    <img class="img-responsive" src="img/02.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
 
                             <div class="item">
-                                <a class="fancybox" rel="gallery" href="img/004.jpg">
-                                    <img class="img-responsive" src="img/004.jpg" alt="">
+                                <a class="fancybox" rel="gallery" href="img/03.jpg">
+                                    <img class="img-responsive" src="img/03.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
 
                             <div class="item">
-                                <a class="fancybox" rel="gallery" href="img/005.jpg">
-                                    <img class="img-responsive" src="img/005.jpg" alt="">
+                                <a class="fancybox" rel="gallery" href="img/04.jpg">
+                                    <img class="img-responsive" src="img/04.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
 
                             <div class="item">
-                                <a class="fancybox" rel="gallery" href="img/006.jpg">
-                                    <img class="img-responsive" src="img/006.jpg" alt="">
+                                <a class="fancybox" rel="gallery" href="img/05.jpg">
+                                    <img class="img-responsive" src="img/05.jpg" alt="">
+                                </a>
+                            </div><!-- /.item -->
+
+                            <div class="item">
+                                <a class="fancybox" rel="gallery" href="img/06.jpg">
+                                    <img class="img-responsive" src="img/06.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
 
 
                             <div class="item">
-                                <a class="fancybox" rel="gallery" href="img/007.jpg">
-                                    <img class="img-responsive" src="img/007.jpg" alt="">
+                                <a class="fancybox" rel="gallery" href="img/07.jpg">
+                                    <img class="img-responsive" src="img/07.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
 
                             <div class="item">
-                                <a class="fancybox" rel="gallery" href="img/008.jpg">
-                                    <img class="img-responsive" src="img/008.jpg" alt="">
+                                <a class="fancybox" rel="gallery" href="img/08.jpg">
+                                    <img class="img-responsive" src="img/08.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
 
                             <div class="item">
-                                <a class="fancybox" rel="gallery" href="img/009.jpg">
-                                    <img class="img-responsive" src="img/009.jpg" alt="">
+                                <a class="fancybox" rel="gallery" href="img/09.jpg">
+                                    <img class="img-responsive" src="img/09.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
 
                             <div class="item">
-                                <a class="fancybox" rel="gallery" href="img/010.jpg">
-                                    <img class="img-responsive" src="img/010.jpg" alt="">
+                                <a class="fancybox" rel="gallery" href="img/10.jpg">
+                                    <img class="img-responsive" src="img/10.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
 
                             <div class="item">
-                                <a class="fancybox" rel="gallery" href="img/011.jpg">
-                                    <img class="img-responsive" src="img/011.jpg" alt="">
+                                <a class="fancybox" rel="gallery" href="img/11.jpg">
+                                    <img class="img-responsive" src="img/11.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
 
                             <div class="item">
-                                <a class="fancybox" rel="gallery" href="img/003.jpg">
-                                    <img class="img-responsive" src="img/003.jpg" alt="">
+                                <a class="fancybox" rel="gallery" href="img/12.jpg">
+                                    <img class="img-responsive" src="img/12.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
 
@@ -432,7 +432,7 @@
                 <div class="col-md-12">
                     <h2>vídeo</h2>
 
-                    <a class="iframe" href="https://www.youtube.com/embed/r7mKWFSAP8s">
+                    <a class="iframe" href="https://www.youtube.com/embed/hvFHWeld98k">
                         <img src="img/img_video.jpg" class="img-responsive" alt="">
                     </a>
 
@@ -495,19 +495,19 @@
                     <form class="form-horizontal row" id="formInformacoes" method="post" action="envia_contato.php">
 
                         <div class="col-md-6">
-                            <input name="nome" type="text" class="form-control" id="inputNome" placeholder="Nome" minlength="2" required>
+                            <input name="inputNome" type="text" class="form-control" id="inputNome" placeholder="Nome" minlength="2" required>
                         </div>
 
                         <div class="col-md-6">
-                            <input name="email" type="email" class="form-control" id="inputEmail" placeholder="E-mail" required>
+                            <input name="inputEmail" type="email" class="form-control" id="inputEmail" placeholder="E-mail" required>
                         </div>
 
                         <div class="col-md-6">
-                            <input name="telefone" type="tel" class="form-control" id="inputTelefone" placeholder="Telefone">
+                            <input name="inputTelefone" type="tel" class="form-control" id="inputTelefone" placeholder="Telefone">
                         </div>
 
                         <div class="col-md-6">
-                            <textarea name="mensagem" class="form-control" class="form-control" id="inputMensagem" placeholder="Mensagem" minlength="10" required></textarea>
+                            <textarea name="inputMensagem" class="form-control" class="form-control" id="inputMensagem" placeholder="Mensagem" minlength="10" required></textarea>
                         </div>
 
                         <button type="submit" name='submit' class="btn btn-default">enviar</button>
@@ -583,15 +583,21 @@
 
         <div class="container">
             <ul class="social">
-                <li><a href="#">
-                    <img src="img/social_facebook.png" alt="">
-                </a></li>
-                <li><a href="#">
-                    <img src="img/social_instagram.png" alt="">
-                </a></li>
-                <li><a href="#">
-                    <img src="img/social_youtube.png" alt="">
-                </a></li>
+                <li>
+                    <a href="http://www.facebook.com/ConstrutoraCalper" target="_blank">
+                        <img src="img/social_facebook.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://instagram.com/construtora_calper" target="_blank">
+                        <img src="img/social_instagram.png" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="http://www.youtube.com/user/construtoracalper" target="_blank">
+                        <img src="img/social_youtube.png" alt="">
+                    </a>
+                </li>
             </ul>
         </div><!-- /.container -->
 

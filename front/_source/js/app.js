@@ -24,10 +24,6 @@ $(window).load(function() {
 
 $(document).ready(function(){
 
-    // $('#myCarousel').carousel({
-    //     interval: 12000
-    // });
-
     $('#mobCarousel').on('slid.bs.carousel', function () {
         var item = ($('#mobCarousel .item').index($('#mobCarousel .active')) + 1);
         $( ".item_slide" ).html(item);
@@ -79,26 +75,26 @@ $(document).ready(function(){
     // validate signup form on keyup and submit
     $("#formInformacoes").validate({
         rules: {
-            nome: {
+            inputNome: {
                 required: true,
                 minlength: 2
             },
-            email: {
+            inputEmail: {
                 required: true,
                 email: true
             },
-            mensagem: {
+            inputMensagem: {
                 required: true,
                 minlength: 10
             }
         },
         messages: {
-            nome: {
+            inputNome: {
                 required: "Digite seu nome",
                 minlength: "Seu nome precisa ser maior que 2 letras"
             },
-            email: "Digite um e-mail válido",
-            mensagem: {
+            inputEmail: "Digite um e-mail válido",
+            inputMensagem: {
                 required: "Digite uma mensagem",
                 minlength: "Sua mensagem precisa ser maior que 10 letras"
             }

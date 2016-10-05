@@ -7517,7 +7517,7 @@ LIGHTBOX
 }
 
 .fancybox-overlay {
-	background: rgba(109, 109, 109, 0.8);
+	background: #6d6d6d;
 }
 
 .fancybox-skin {
@@ -7668,10 +7668,12 @@ FORM
 textarea.form-control {
 	height: 40px;
 	line-height: 27px;
+	overflow: hidden;
 }
 
 textarea.form-control:focus {
 	height: 120px;
+	overflow: auto;
 }
 
 .is-completed textarea.form-control {

@@ -1,11 +1,11 @@
 <?
 $title = "Matriz | Contato site";
-$email_matriz  = "storge.lima@gmail.com";
+$email_matriz  = "contato@thiagolima.com";
 
-$nome = $_POST["nome"];
-$email = $_POST["email"];
-$telefone = $_POST["telefone"];
-$mensagem = $_POST["mensagem"];
+$nome = $_POST["inputNome"];
+$email = $_POST["inputEmail"];
+$telefone = $_POST["inputTelefone"];
+$mensagem = $_POST["inputMensagem"];
 
 $Remetente = $email; // aqui, colocamos que o email digitado seja quem enviou o formulário, 
                      // pode ser substituido por "Contato do Site", assim, sairá sempre que 
