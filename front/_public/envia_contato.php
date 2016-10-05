@@ -1,6 +1,6 @@
 <?
 $title = "Matriz | Contato site";
-$email_matriz  = "contato@thiagolima.com";
+$email_matriz  = "projetos@grito.cc";
 
 $nome = $_POST["inputNome"];
 $email = $_POST["inputEmail"];
