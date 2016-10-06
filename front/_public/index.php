@@ -4,11 +4,21 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="pt-br"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="pt-br"> <!--<![endif]-->
 <head>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-TNCG7Z');
+    </script>
+    <!-- End Google Tag Manager -->
+
     <!-- ==============================================
     Title and basic Meta Tags
     =============================================== -->
     <meta charset="utf-8">
-    <title>nome_do_projeto</title>
+    <title>Matriz 25</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="Thiago Limão" />
@@ -69,21 +79,6 @@
     Favicons
     =============================================== -->
     <link rel="shortcut icon" type="image/x-icon"     href="img/favicon/favicon.ico">
-    <link rel="icon" type="image/png" sizes="32x32"   href="img/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96"   href="img/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16"   href="img/favicon/favicon-16x16.png">
-
-    <link rel="apple-touch-icon"      sizes="57x57"   href="img/favicon/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon"      sizes="60x60"   href="img/favicon/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon"      sizes="72x72"   href="img/favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon"      sizes="76x76"   href="img/favicon/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon"      sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon"      sizes="120x120" href="img/favicon/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon"      sizes="144x144" href="img/favicon/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon"      sizes="152x152" href="img/favicon/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon"      sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
-
-    <link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-chrome-192x192.png">
 
     <link rel="manifest" href="img/favicon/manifest.json">
     <meta name="theme-color" content="#ffffff">
@@ -93,6 +88,10 @@
 </head>
 
 <body class="main">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TNCG7Z" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- ==============================================
     Preloader
     =============================================== -->
@@ -195,30 +194,42 @@
                                     <div class="col-md-6">
                                         <div class="row">
                                             <a class="fancybox col-md-12" title=". Suítes amplas com até 25m2 e espaço para closet ou escritório." rel="gallery" href="img/01.jpg">
-                                                <img class="img-responsive" src="img/01.jpg" alt="">
+                                                <span class="over_hidden">
+                                                    <img class="img-responsive" src="img/01.jpg" alt="">
+                                                </span>
                                             </a>
                                         </div><!-- /.row -->
                                         <div class="row">
                                             <a class="fancybox col-md-6" title=". Apartamento garden com lazer e conforto em ambiente exclusivo." rel="gallery" href="img/02.jpg">
-                                                <img class="img-responsive" src="img/02.jpg" alt="">
+                                                <span class="over_hidden">
+                                                    <img class="img-responsive" src="img/02.jpg" alt="">
+                                                </span>
                                             </a>
                                             <a class="fancybox col-md-6" title=". Ambiente de cozinha moderno, amplo, funcional e prático." rel="gallery" href="img/03.jpg">
-                                                <img class="img-responsive" src="img/03.jpg" alt="">
+                                                <span class="over_hidden">
+                                                    <img class="img-responsive" src="img/03.jpg" alt="">
+                                                </span>
                                             </a>
                                         </div><!-- /.row -->
                                     </div><!-- /col -->
                                     <div class="col-md-6">
                                         <div class="row">
                                             <a class="fancybox col-md-6" title=". Salão de festas com cozinha gourmet, lounge e varanda." rel="gallery" href="img/04.jpg">
-                                                <img class="img-responsive" src="img/04.jpg" alt="">
+                                                <span class="over_hidden">
+                                                    <img class="img-responsive" src="img/04.jpg" alt="">
+                                                </span>
                                             </a>
                                             <a class="fancybox col-md-6" title=". Um novo conceito em design e sofisticação em cada detalhe." rel="gallery" href="img/05.jpg">
-                                                <img class="img-responsive" src="img/05.jpg" alt="">
+                                                <span class="over_hidden">
+                                                    <img class="img-responsive" src="img/05.jpg" alt="">
+                                                </span>
                                             </a>
                                         </div><!-- /.row -->
                                         <div class="row">
                                             <a class="fancybox col-md-12" title=". Salas de estar amplas e arejadas permitem diferentes composições." rel="gallery" href="img/06.jpg">
-                                                <img class="img-responsive" src="img/06.jpg" alt="">
+                                                <span class="over_hidden">
+                                                    <img class="img-responsive" src="img/06.jpg" alt="">
+                                                </span>
                                             </a>
                                         </div><!-- /.row -->
                                     </div><!-- /col -->
@@ -231,30 +242,42 @@
                                     <div class="col-md-6">
                                         <div class="row">
                                             <a class="fancybox col-md-12" title=". Piscina com hidromassagem integrada." rel="gallery" href="img/07.jpg">
-                                                <img class="img-responsive" src="img/07.jpg" alt="">
+                                                <span class="over_hidden">
+                                                    <img class="img-responsive" src="img/07.jpg" alt="">
+                                                </span>
                                             </a>
                                         </div><!-- /.row -->
                                         <div class="row">
                                             <a class="fancybox col-md-6" title=". Espaço fitness reservado para o seu corpo e bem-estar." rel="gallery" href="img/08.jpg">
-                                                <img class="img-responsive" src="img/08.jpg" alt="">
+                                                <span class="over_hidden">
+                                                    <img class="img-responsive" src="img/08.jpg" alt="">
+                                                </span>
                                             </a>
                                             <a class="fancybox col-md-6" title=". Do churrasco à pizza, ofereça o melhor entretenimento aos seus convidados." rel="gallery" href="img/09.jpg">
-                                                <img class="img-responsive" src="img/09.jpg" alt="">
+                                                <span class="over_hidden">
+                                                    <img class="img-responsive" src="img/09.jpg" alt="">
+                                                </span>
                                             </a>
                                         </div><!-- /.row -->
                                     </div><!-- /col -->
                                     <div class="col-md-6">
                                         <div class="row">
                                             <a class="fancybox col-md-6" title=". Integrado à brinquedoteca, playground para brincar ao ar livre." rel="gallery" href="img/10.jpg">
-                                                <img class="img-responsive" src="img/10.jpg" alt="">
+                                                <span class="over_hidden">
+                                                    <img class="img-responsive" src="img/10.jpg" alt="">
+                                                </span>
                                             </a>
                                             <a class="fancybox col-md-6" title=". Brinquedoteca reservada para crianças se divertirem." rel="gallery" href="img/11.jpg">
-                                                <img class="img-responsive" src="img/11.jpg" alt="">
+                                                <span class="over_hidden">
+                                                    <img class="img-responsive" src="img/11.jpg" alt="">
+                                                </span>
                                             </a>
                                         </div><!-- /.row -->
                                         <div class="row">
                                             <a class="fancybox col-md-12" title=". Fachada de ângulos retos e linhas simples inspiradas no design urbano." rel="gallery" href="img/12.jpg">
-                                                <img class="img-responsive" src="img/12.jpg" alt="">
+                                                <span class="over_hidden">
+                                                    <img class="img-responsive" src="img/12.jpg" alt="">
+                                                </span>
                                             </a>
                                         </div><!-- /.row -->
                                     </div><!-- /col -->
@@ -473,6 +496,7 @@
     <section class="localizacao">
 
         <h2>localização</h2>
+        <h3>Rua da Matriz, 25 - Botafogo</h3>
 
         <img src="img/mapa_matriz25.jpg" class="img-responsive" alt="">
 

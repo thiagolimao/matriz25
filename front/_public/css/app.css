@@ -7844,18 +7844,18 @@ Page: HOME
 	max-width: 1030px;
 }
 
-.main section.galeria .container #myCarousel .fancybox {
+.main section.galeria .container #myCarousel .fancybox img {
 	-webkit-transform: scale(1); /* prefixo para browsers webkit */
 	-moz-transform: scale(1); /* prefixo para browsers gecko */
 	-o-transform: scale(1); /* prefixo para opera */
 	transform: scale(1);
 }
 
-.main section.galeria .container #myCarousel .fancybox:hover {
-	-webkit-transform: scale(1.2); /* prefixo para browsers webkit */
-	-moz-transform: scale(1.2); /* prefixo para browsers gecko */
-	-o-transform: scale(1.2); /* prefixo para opera */
-	transform: scale(1.2);
+.main section.galeria .container #myCarousel .fancybox img:hover {
+	-webkit-transform: scale(1.5); /* prefixo para browsers webkit */
+	-moz-transform: scale(1.5); /* prefixo para browsers gecko */
+	-o-transform: scale(1.5); /* prefixo para opera */
+	transform: scale(1.5);
 	z-index: 10;
 }
 
@@ -7883,6 +7883,11 @@ Page: HOME
 
 .main section.galeria .container .carousel .carousel-inner .fancybox {
 	padding: 5px;
+}
+
+.main section.galeria .container .carousel .carousel-inner .fancybox .over_hidden {
+	overflow: hidden;
+	display: block;
 }
 
 .main section.diferenciais {
@@ -7932,6 +7937,14 @@ Page: HOME
 .main section.localizacao {
 	padding-top: 0;
 	padding-bottom: 0;
+}
+
+.main section.localizacao h2 {
+	margin-bottom: 20px;
+}
+
+.main section.localizacao h3 {
+	margin-bottom: 30px;
 }
 
 .main section.localizacao img {

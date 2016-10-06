@@ -76,18 +76,22 @@ Page: HOME
                 {
                     .fancybox
                     {
-                        -webkit-transform:scale(1.0); /* prefixo para browsers webkit */
-                        -moz-transform:scale(1.0); /* prefixo para browsers gecko */
-                        -o-transform:scale(1.0); /* prefixo para opera */
-                        transform:scale(1.0);
+                        img
+                        {
+                            -webkit-transform:scale(1.0); /* prefixo para browsers webkit */
+                            -moz-transform:scale(1.0); /* prefixo para browsers gecko */
+                            -o-transform:scale(1.0); /* prefixo para opera */
+                            transform:scale(1.0);
 
-                        &:hover {
-                            -webkit-transform:scale(1.2); /* prefixo para browsers webkit */
-                            -moz-transform:scale(1.2); /* prefixo para browsers gecko */
-                            -o-transform:scale(1.2); /* prefixo para opera */
-                            transform:scale(1.2);
+                            &:hover
+                            {
+                                -webkit-transform:scale(1.5); /* prefixo para browsers webkit */
+                                -moz-transform:scale(1.5); /* prefixo para browsers gecko */
+                                -o-transform:scale(1.5); /* prefixo para opera */
+                                transform:scale(1.5);
 
-                            z-index: 10;
+                                z-index: 10;
+                            }
                         }
                     }
                 }
@@ -132,7 +136,12 @@ Page: HOME
 
                         .fancybox
                         {
-                             padding: 5px;
+                            padding: 5px;
+                            .over_hidden
+                            {
+                                overflow: hidden;
+                                display: block;
+                            }
                         }
                     }
                  }
@@ -260,6 +269,16 @@ Page: HOME
         {
             padding-top: 0;
             padding-bottom: 0;
+
+
+                h2
+                {
+                    margin-bottom: 20px;
+                }
+                h3
+                {
+                    margin-bottom: 30px;
+                }
 
             img
             {
