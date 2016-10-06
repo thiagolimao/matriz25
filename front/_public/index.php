@@ -113,13 +113,34 @@
         <a class="btn btn-cadastro" title="cadastre-se para mais informações" href="#mais-informacoes">
             cadastre-se para mais informações
         </a>
+        <script>
+            var tag = document.createElement('script');
 
+            tag.src = "https://www.youtube.com/iframe_api";
+            var firstScriptTag = document.getElementsByTagName('script')[0];
+            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+            var player;
+
+            function onYouTubeIframeAPIReady() {
+                player = new YT.Player('video-destaque', {
+                    events: {
+                        'onReady': onPlayerReady
+                    }
+                });
+            }
+
+            function onPlayerReady(event) {
+                player.mute();
+            }
+        </script>
         <!-- <img src="img/bg_header.jpg" class="img-responsive" alt=""> -->
         <div class="video-background">
             <div class="video-foreground">
-                <iframe id="video-destaque" src="https://www.youtube.com/embed/hvFHWeld98k?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=hvFHWeld98k" frameborder="0" volume="0" allowfullscreen></iframe>
+                <iframe id="video-destaque" src="https://www.youtube.com/embed/hvFHWeld98k?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&enablejsapi=1&playlist=hvFHWeld98k" frameborder="0" volume="0" allowfullscreen></iframe>
             </div>
         </div>
+        
 
     </header><!-- /.header -->
 
@@ -256,73 +277,73 @@
                         <div class="carousel-inner" role="listbox">
 
                             <div class="item active">
-                                <a class="fancybox" rel="gallery" href="img/01.jpg">
+                                <a class="fancybox" rel="gallerymob" href="img/01.jpg">
                                     <img class="img-responsive" src="img/01.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
                             <div class="item">
-                                <a class="fancybox" rel="gallery" href="img/02.jpg">
+                                <a class="fancybox" rel="gallerymob" href="img/02.jpg">
                                     <img class="img-responsive" src="img/02.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
 
                             <div class="item">
-                                <a class="fancybox" rel="gallery" href="img/03.jpg">
+                                <a class="fancybox" rel="gallerymob" href="img/03.jpg">
                                     <img class="img-responsive" src="img/03.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
 
                             <div class="item">
-                                <a class="fancybox" rel="gallery" href="img/04.jpg">
+                                <a class="fancybox" rel="gallerymob" href="img/04.jpg">
                                     <img class="img-responsive" src="img/04.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
 
                             <div class="item">
-                                <a class="fancybox" rel="gallery" href="img/05.jpg">
+                                <a class="fancybox" rel="gallerymob" href="img/05.jpg">
                                     <img class="img-responsive" src="img/05.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
 
                             <div class="item">
-                                <a class="fancybox" rel="gallery" href="img/06.jpg">
+                                <a class="fancybox" rel="gallerymob" href="img/06.jpg">
                                     <img class="img-responsive" src="img/06.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
 
 
                             <div class="item">
-                                <a class="fancybox" rel="gallery" href="img/07.jpg">
+                                <a class="fancybox" rel="gallerymob" href="img/07.jpg">
                                     <img class="img-responsive" src="img/07.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
 
                             <div class="item">
-                                <a class="fancybox" rel="gallery" href="img/08.jpg">
+                                <a class="fancybox" rel="gallerymob" href="img/08.jpg">
                                     <img class="img-responsive" src="img/08.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
 
                             <div class="item">
-                                <a class="fancybox" rel="gallery" href="img/09.jpg">
+                                <a class="fancybox" rel="gallerymob" href="img/09.jpg">
                                     <img class="img-responsive" src="img/09.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
 
                             <div class="item">
-                                <a class="fancybox" rel="gallery" href="img/10.jpg">
+                                <a class="fancybox" rel="gallerymob" href="img/10.jpg">
                                     <img class="img-responsive" src="img/10.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
 
                             <div class="item">
-                                <a class="fancybox" rel="gallery" href="img/11.jpg">
+                                <a class="fancybox" rel="gallerymob" href="img/11.jpg">
                                     <img class="img-responsive" src="img/11.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
 
                             <div class="item">
-                                <a class="fancybox" rel="gallery" href="img/12.jpg">
+                                <a class="fancybox" rel="gallerymob" href="img/12.jpg">
                                     <img class="img-responsive" src="img/12.jpg" alt="">
                                 </a>
                             </div><!-- /.item -->
