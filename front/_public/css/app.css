@@ -7747,6 +7747,17 @@ HEADER
 	min-height: 100vh;
 }
 
+#header .play_mobile {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -116px;
+	margin-left: -116px;
+	width: 233px;
+	height: 233px;
+	display: none;
+}
+
 #header .navbar-brand {
 	position: absolute;
 	left: 0;
@@ -7794,6 +7805,10 @@ FOOTER
 	width: 15%;
 	line-height: 142px;
 	height: 122px;
+}
+
+.footer ul li a:hover {
+	opacity: .6;
 }
 
 /* ==================================================================
@@ -7845,6 +7860,7 @@ Page: HOME
 }
 
 .main section.galeria .container #myCarousel .fancybox img {
+	transition: all 0.2s ease-in-out;
 	-webkit-transform: scale(1); /* prefixo para browsers webkit */
 	-moz-transform: scale(1); /* prefixo para browsers gecko */
 	-o-transform: scale(1); /* prefixo para opera */
@@ -9415,10 +9431,25 @@ td.visible-lg {
 
 @media (max-width: 768px) {
 
+.video-background {
+	display: none;
+}
+
+#header {
+	background-repeat: no-repeat;
+	background-image: url(../img/back_mob_header.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#header .play_mobile {
+	display: block;
+}
+
 #header .navbar-brand {
 	width: 100%;
 	text-align: center;
-	background-color: #343434;
+	background-color: #383a3c;
 	top: 0;
 }
 

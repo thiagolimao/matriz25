@@ -5,6 +5,31 @@ HEADER
 {
     position: relative;
     min-height: 100vh;
+
+    @media (max-width: 768px)
+    {
+        background-repeat: no-repeat;
+        background-image: url(../img/back_mob_header.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+
+    .play_mobile
+    {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -116px;
+        margin-left: -116px;
+
+        width: 233px;
+        height: 233px;
+        display: none;
+        @media (max-width: 768px)
+        {
+            display: block;
+        }
+    }
     .navbar-brand
     {
         position: absolute;
@@ -19,7 +44,7 @@ HEADER
             width: 100%;
             text-align: center;
 
-            background-color: #343434;
+            background-color: #383a3c;
 
             top: 0;
 
@@ -38,7 +63,7 @@ HEADER
         bottom: 25px;
         left: 50%;
         margin-left: -180px;
-        
+
         width: 360px;
     }
 }
