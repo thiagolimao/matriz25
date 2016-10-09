@@ -528,7 +528,7 @@
                         <button class="close" data-dismiss="alert" type="button" id="close-sucess">×</button>
                         <strong>Enviado com sucesso!</strong> Retornarei em breve.
                     </div>
-                    
+
                     <?php
                         }else if ($msg == 2){
                     ?>
