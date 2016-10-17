@@ -109,7 +109,7 @@
             <img src="img/logo_matriz25.png" alt="">
         </a>
 
-        <a class="play_mobile iframe" href="https://www.youtube.com/embed/hvFHWeld98k">
+        <a class="play_mobile iframe" href="https://www.youtube.com/embed/hvFHWeld98k?autoplay=1">
             <img src="img/play_mobile.png" alt="">
         </a>
 
@@ -143,7 +143,6 @@
                 <iframe id="video-destaque" src="https://www.youtube.com/embed/hvFHWeld98k?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&enablejsapi=1&playlist=hvFHWeld98k" frameborder="0" volume="0" allowfullscreen></iframe>
             </div>
         </div>
-        
 
     </header><!-- /.header -->
 
